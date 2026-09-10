@@ -1,2 +1,2 @@
 # LabWatcher
-LabWatcher is an open-source server monitoring tool for homelab environments.
+A lightweight, open-source telemetry and server monitoring service designed for homelabs.
