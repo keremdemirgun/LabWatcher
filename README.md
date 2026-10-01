@@ -32,6 +32,6 @@ LabWatcher is structured upon a decoupled architecture:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/labwatcher.git](https://github.com/yourusername/labwatcher.git)
+   git clone [https://github.com/keremdemirgun/labwatcher.git](https://github.com/keremdemirgun/labwatcher.git)
    cd labwatcher
    ```
