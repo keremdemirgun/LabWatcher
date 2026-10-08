@@ -1,7 +1,7 @@
 import telebot
 import requests
 
-bot = telebot.TeleBot('8281701621:AAElUu5jWNAQY1Ln79eLYDpBnraut2biQME')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=['cpu'])
 def send_cpu(message):
