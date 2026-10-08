@@ -1,7 +1,13 @@
 import telebot
 import requests
+import os
+from dotenv import load_dotenv
 
-bot = telebot.TeleBot('TOKEN')
+load_dotenv()
+
+TOKEN = os.getenv("TOKEN")
+
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['cpu'])
 def send_cpu(message):
